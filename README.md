@@ -1,1 +1,1 @@
-[USBGuard](https://github.com/dkopecek/usbguard) project site build using [Jekyll](http://jekyllrb.com) and the [slim-pickins-jekyll-theme](https://github.com/chrisanthropic/slim-pickins-jekyll-theme).
+[USBGuard](https://github.com/USBGuard/usbguard) project site build using [Jekyll](http://jekyllrb.com) and the [slim-pickins-jekyll-theme](https://github.com/chrisanthropic/slim-pickins-jekyll-theme).

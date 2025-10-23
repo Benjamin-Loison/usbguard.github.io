@@ -14,7 +14,7 @@ sitemap:
 
 The main goal of the USBGuard project is to simplify the task of implemening and maintaining a USB device authorization policy (i.e. USB device whitelist or blacklist) on Linux. One can already implement this with a combination of UDev, the Linux Kernel [USB authorization feature](https://www.kernel.org/doc/Documentation/usb/authorization.txt) and some custom shell scripts. If you use this approach and aren't satisfied with it beacause one of the reasons described later in this document, then you might want to give USBGuard a try on your system. And please share your feedback when you do!
 
-This document is also available as a PDF [here](https://github.com/dkopecek/usbguard/raw/master/doc/usbguard-vs-udev.pdf).
+This document is also available as a PDF [here](https://github.com/USBGuard/usbguard/raw/master/doc/usbguard-vs-udev.pdf).
 
 # What are the drawbacks when using UDev rules to implement USB device authorization?
 
@@ -40,7 +40,7 @@ USBGuard uses a best effort method for identifying USB devices from one another.
 
 For mitigation of successful exploitaition of security bugs in the software, USBGuard uses a seccomp syscall whitelist and reduces it's process capabilities to a minimum.
 
-It's possible to write third-party C++ applications that can interact with the daemon by using the USBGuard API provided in a shared library. The [USBGuard Qt Applet](https://github.com/dkopecek/usbguard-applet-qt/) is based on this library.
+It's possible to write third-party C++ applications that can interact with the daemon by using the USBGuard API provided in a shared library. The [USBGuard Qt Applet](https://github.com/USBGuard/usbguard-applet-qt/) is based on this library.
 
 # Example: Whitelisting a Yubikey device
 
@@ -81,4 +81,4 @@ Note that the above rule also checks that the Yubikey interacts with the system 
 
 The `authorized_default` flag state is handled automatically by the USBGuard daemon and it's configurable in `/etc/usbguard/usbguard-daemon.conf`.
 
-NOTE: Logging actions or executing of scripts is currently not implemented. However, it's a feature planned to be completed in the first stable release, usbguard-1.0. Notification to desktop users can be displayed by the [usbguard-applet-qt](https://github.com/dkopecek/usbguard-applet-qt/).
+NOTE: Logging actions or executing of scripts is currently not implemented. However, it's a feature planned to be completed in the first stable release, usbguard-1.0. Notification to desktop users can be displayed by the [usbguard-applet-qt](https://github.com/USBGuard/usbguard-applet-qt/).

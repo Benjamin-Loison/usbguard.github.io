@@ -93,7 +93,7 @@
             <dc:title>Daniel Kopeček</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:source>https://github.com/dkopecek/usbguard/</dc:source>
+        <dc:source>https://github.com/USBGuard/usbguard/</dc:source>
         <dc:subject>
           <rdf:Bag>
             <rdf:li>USB</rdf:li>

@@ -19,4 +19,4 @@ Therefore, I've decided to bundle the [qb](https://github.com/ClusterLabs/libqb)
 
 To make it easier still, I wrote a short how-to compile & install USBGuard for Ubuntu 14.04 users. It should work for other \*buntus and on Debian too, I hope -- please let me know, if that isn't true). The document needs some polishing and I will work on it further.
 
-The most up-to-date version of the how-to can be found [here](https://github.com/dkopecek/usbguard/blob/master/doc/usbguard-on-ubuntu-14.04.md).
+The most up-to-date version of the how-to can be found [here](https://github.com/USBGuard/usbguard/blob/master/doc/usbguard-on-ubuntu-14.04.md).

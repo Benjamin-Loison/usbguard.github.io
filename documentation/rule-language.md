@@ -22,7 +22,7 @@ The rule language grammar, expressed in a BNF-like syntax, is the following:
     conditions ::= conditions | condition.
     conditions ::= .
 
-See [Device attributes](https://github.com/dkopecek/usbguard#device-attributes) section for the list of available attributes and [Conditions](https://github.com/dkopecek/usbguard#conditions) for the list of supported rule conditions.
+See [Device attributes](https://github.com/USBGuard/usbguard#device-attributes) section for the list of available attributes and [Conditions](https://github.com/USBGuard/usbguard#conditions) for the list of supported rule conditions.
 
 ## Targets
 
@@ -50,7 +50,7 @@ specific vendor, e.g. `1234:*`.
 
 ### Device attributes
 
-(Please see [issue #11](https://github.com/dkopecek/usbguard/issues/11) and comment on the changes related to this section)
+(Please see [issue #11](https://github.com/USBGuard/usbguard/issues/11) and comment on the changes related to this section)
 
 Device attributes are specific value read from the USB device after it's inserted to the system. Which attributes are
 available is defined bellow. Some of the attributes are derived or based on attributes read directly from the device.

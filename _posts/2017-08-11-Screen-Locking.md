@@ -12,7 +12,7 @@ sitemap:
   exclude: 'no'
 ---
 
-Since the [0.7.0 release](https://github.com/dkopecek/usbguard/releases/tag/usbguard-0.7.0), it is possible to influence how an already running `usbguard-daemon` instance handles newly inserted USB devices.
+Since the [0.7.0 release](https://github.com/USBGuard/usbguard/releases/tag/usbguard-0.7.0), it is possible to influence how an already running `usbguard-daemon` instance handles newly inserted USB devices.
 The behaviour is defined by the value of the `InsertedDevicePolicy` runtime parameter and the default choice is to apply the policy rules to figure out whether to authorize the device or not.
 
 The parameter can be read and modified via the usbguard CLI:
