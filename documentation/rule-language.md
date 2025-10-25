@@ -22,7 +22,7 @@ The rule language grammar, expressed in a BNF-like syntax, is the following:
     conditions ::= conditions | condition.
     conditions ::= .
 
-See [Device attributes](https://github.com/USBGuard/usbguard#device-attributes) section for the list of available attributes and [Conditions](https://github.com/USBGuard/usbguard#conditions) for the list of supported rule conditions.
+See [Device attributes](#device-attributes) section for the list of available attributes and [Conditions](#conditions) for the list of supported rule conditions.
 
 ## Targets
 
